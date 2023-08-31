@@ -12,19 +12,19 @@
 
    Navigate to the root of the project and run:
    
-   terraform init
+   `terraform init`
 
 3. **Planning Phase**:
 
    This step generates an execution plan and ensures the resources will be created in the expected order.
 
-   terraform plan
+   `terraform plan`
 
 4. **Apply Changes**:
 
    This will provision the AWS resources as per the Terraform configurations.
 
-   terraform apply
+   `terraform apply`
 
    Confirm with `yes` when prompted.
 
@@ -36,6 +36,6 @@
 
    To delete all resources provisioned by Terraform:
 
-   terraform destroy
+   `terraform destroy`
 
    Confirm with `yes` when prompted.
