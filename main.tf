@@ -107,7 +107,7 @@ resource "aws_instance" "nginx_instance" {
               #!/bin/bash
              sudo yum update -y
              sudo yum install nginx -y 
-             sudo service nginx start
+             sudo service start nginx
               EOF
 
   tags = {
